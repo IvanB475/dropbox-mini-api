@@ -4,6 +4,8 @@ $ npm install
 
 ## Running the app
 
+In app.module.ts change DB connection info to DB of your choice (as listed below, sadly this solution does not include env variables)
+
 # development
 
 $ npm run start
@@ -28,4 +30,4 @@ The complexity of current search scales poorly, and hence is a terrible choice f
 a lot of cases are not covered that have to be covered  
 for search I use get requests while large services like dropbox and google drive use post ( still have to do my research on why is that)   
 env variables   
-this solution does not create DB (dockerizing it can solve that problem)   
+this solution does not create DB
