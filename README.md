@@ -18,7 +18,7 @@ $ npm run start:dev
 
 $ npm run start:prod
 
-# What should be fixed in this solution if it was large scale system?  
+# What should be fixed in this solution?  
 Not use nestjs -> plain express as a slower nodejs framework is still about 2x faster than nest (while for example fastify is several times faster than express)  
 IDs should be replaced with UUID  
 User input has to be sanitized  
